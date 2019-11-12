@@ -2,8 +2,14 @@
 
 from adafruit_blinka.microcontroller.nxp_imx6ull import pin
 
+
 SDA = pin.I2C1_SDA
 SCL = pin.I2C1_SCL
+D0 = pin.D0
+D1 = pin.D1
+D2 = pin.D2
+D3 = pin.D3
+D4 = pin.D4
 
 PWM1 = pin.PWM1
 PWM2 = pin.PWM2

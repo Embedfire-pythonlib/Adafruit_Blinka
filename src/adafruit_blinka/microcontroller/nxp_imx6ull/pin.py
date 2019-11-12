@@ -6,6 +6,11 @@ I2C1_SDA = Pin((0, 3)) # GPIO1_IO3
 I2C2_SCL = Pin(0) # GPIO1_IO0
 I2C2_SDA = Pin(1) # GPIO1_IO1
 
+D0 = Pin(0)
+D1 = Pin(1)
+D2 = Pin(2)
+D3 = Pin(3)
+D4 = Pin(4)
 
 PWM1 = Pin((0, 1))      # GPIO1_IO01
 PWM2 = Pin((0, 13))     # GPIO1_IO13
