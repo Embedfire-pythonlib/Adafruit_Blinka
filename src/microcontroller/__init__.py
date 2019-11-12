@@ -50,5 +50,7 @@ elif chip_id == ap_chip.APQ8016:
     from adafruit_blinka.microcontroller.snapdragon.apq8016.pin import *
 elif chip_id == ap_chip.IMX8MX:
     from adafruit_blinka.microcontroller.nxp_imx8m import *
+elif chip_id == ap_chip.IMX6XXX:
+    from adafruit_blinka.microcontroller.nxp_imx6ull import *
 else:
     raise NotImplementedError("Microcontroller not supported:", chip_id)
