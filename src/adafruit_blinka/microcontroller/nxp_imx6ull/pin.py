@@ -1,7 +1,7 @@
 from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
 
-I2C1_SCL = Pin((0, 2)) # GPIO1_IO2
-I2C1_SDA = Pin((0, 3)) # GPIO1_IO3
+I2C1_SCL = Pin((0, 28)) # GPIO1_IO28
+I2C1_SDA = Pin((0, 29)) # GPIO1_IO29
 
 I2C2_SCL = Pin(0) # GPIO1_IO0
 I2C2_SDA = Pin(1) # GPIO1_IO1
