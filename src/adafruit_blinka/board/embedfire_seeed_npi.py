@@ -1,4 +1,4 @@
-"""Pin definitions for the Embedfire Seeed NPi."""
+"""Pin definitions for the Embedfire IMX6ULL."""
 
 from adafruit_blinka.microcontroller.nxp_imx6ull import pin
 
