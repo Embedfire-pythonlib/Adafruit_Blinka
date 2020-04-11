@@ -24,15 +24,16 @@ GPIO77 = Pin((2, 13))   # GPIO3_IO13
 GPIO138 = Pin((4, 10))  # GPIO5_IO10 
 GPIO141 = Pin((4, 13))  # GPIO5_IO13
 
-ECSPI1_MISO = Pin(136) # GPIO5_IO8
-ECSPI1_MOSI = Pin(135) # GPIO5_IO7 
-ECSPI1_SCLK = Pin(134) # GPIO5_IO6
-ECSPI1_SS0 = Pin(133)  # GPIO5_IO9 
-
+ECSPI3_MISO = Pin(23) # IO1_23
+ECSPI3_MOSI = Pin(22) # IO1_22 
+ECSPI3_SCLK = Pin(21) # IO1_21
+ECSPI3_SS0 = Pin(20)  # IO1_20 
+ECSPI3_DC = Pin(18) # IO1_18
+ECSPI3_RST = Pin(17)  # IO1_17
 
 i2cPorts = ( (0, I2C1_SCL, I2C1_SDA), (2, I2C2_SCL, I2C2_SDA),)
 # ordered as spiId, sckId, mosiId, misoId
-spiPorts = ( (32766, ECSPI1_SCLK, ECSPI1_MOSI, ECSPI1_MISO), )
+spiPorts = ( (2, ECSPI3_SCLK, ECSPI3_MOSI, ECSPI3_MISO), )
 # SysFS pwm outputs, pwm channel and pin in first tuple
 pwmOuts = ( ((0, 0), PWM1), ((1, 0), PWM2), ((2, 0), PWM3), )
 

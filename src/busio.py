@@ -136,6 +136,9 @@ class SPI(Lockable):
         elif detector.board.ftdi_ft232h:
             from adafruit_blinka.microcontroller.ft232h.spi import SPI as _SPI
             from adafruit_blinka.microcontroller.ft232h.pin import Pin
+        elif detector.board.any_npi_board:
+            from adafruit_blinka.microcontroller.generic_linux.spi import SPI as _SPI
+            from adafruit_blinka.microcontroller.generic_linux.libgpiod_pin import Pin
         else:
             from machine import SPI as _SPI
             from machine import Pin
