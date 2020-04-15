@@ -6,23 +6,16 @@ I2C1_SDA = Pin((0, 29)) # GPIO1_IO29
 I2C2_SCL = Pin(0) # GPIO1_IO0
 I2C2_SDA = Pin(1) # GPIO1_IO1
 
-D0 = Pin(0)
-D1 = Pin(1)
-D2 = Pin(2)
-D3 = Pin(3)
-D4 = Pin(4)
-
 PWM1 = Pin((0, 1))      # GPIO1_IO01
 PWM2 = Pin((0, 13))     # GPIO1_IO13
 PWM3 = Pin((0, 14))    # GPIO1_IO14
 
-GPIO6 = Pin((0, 6))     # GPIO1_IO6
-GPIO7 = Pin((0, 7))     # GPIO1_IO7
-GPIO8 = Pin((0, 8))     # GPIO1_IO8
-GPIO73 = Pin((2, 9))    # GPIO3_IO9
-GPIO77 = Pin((2, 13))   # GPIO3_IO13
-GPIO138 = Pin((4, 10))  # GPIO5_IO10 
-GPIO141 = Pin((4, 13))  # GPIO5_IO13
+R_LED_PIN = Pin((0, 4))    # GPIO1_IO4
+G_LED_PIN = Pin((3, 20))    # GPIO4_IO20
+B_LED_PIN = Pin((3, 19))    # GPIO4_IO19
+BEEP_PIN = Pin((0, 19))    # GPIO1_IO19
+
+BUTTON_PIN = Pin((4, 1))    # GPIO5_IO1
 
 ECSPI3_MISO = Pin(23) # IO1_23
 ECSPI3_MOSI = Pin(22) # IO1_22 
